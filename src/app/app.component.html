@@ -1,0 +1,102 @@
+<body>
+  <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+    <div class="container">
+      <button
+        class="navbar-toggler hidden sm-up"
+        type="button"
+        data-toggle="collapse"
+        data-target="#exCollapsingNavbar"
+      >
+        &#9776;
+      </button>
+      <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar">
+        <a class="navbar-brand" href="#">Dream Bean</a>
+        <div class="nav navbar-nav">
+          <a class="nav-item nav-link active" href="#">
+            Home <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-item nav-link" href="#"> Products </a>
+          <a class="nav-item nav-link" href="#"> Checkout </a>
+          <a class="nav-item nav-link" href="#"> Sign out</a>
+        </div>
+      </div>
+      <ul class="nav navbar-nav pull-xs-right">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Cart</a
+          >
+          <div class="dropdown-menu">
+            <span>The Cart Placeholder</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="welcome-products" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <img src="http://placehold.it/1110x480" alt="Bread & Pastry" />
+        <ol class="carousel-indicators">
+          <li
+            data-target="#welcome-products"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#welcome-products" data-slide-to="1"></li>
+          <li data-target="#welcome-products" data-slide-to="2"></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4 table-bordered">
+      <div class="card">
+        <img
+          class="img-fluid center-block product-item"
+          src="http://placehold.it/270x171"
+          alt="Bakery"
+        />
+        <div class="card-block">
+          <h4 class="card-title">Bakery</h4>
+          <p class="card-text">
+            The best cupcakes, cookies, cakes, pies, cheesecakes, fresh bread,
+            biscotti, muffins, bagels, fresh coffee and more.
+          </p>
+          <button type="button" class="btn btn-primary">Browse</button>
+        </div>
+        <!-- /.col -->
+        <div class="col-xs-12 col-sm-6 col-md-4 table-bordered">
+          <a href="#">
+            <img
+              class="img-fluid center-block product-item"
+              src="http://placehold.it/270x171"
+              alt=""
+            />
+          </a>
+        </div>
+        <!-- /.col -->
+
+        <div class="col-xs-12 col-sm-6 col-md-4 table-bordered">
+          <a href="#">
+            <img
+              class="img-fluid center-block product-item"
+              src="http://placehold.it/270x171"
+              alt=""
+            />
+          </a>
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </div>
+</body>
